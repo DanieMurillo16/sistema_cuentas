@@ -42,7 +42,7 @@ contactos), `users` (solo administrador). Pantallas y orden en [`docs/ARRANQUE_F
 
 ## Backend (API + base de datos)
 
-- **Carpeta:** `./backend` (dentro de esta app, **ignorada por su git**). PHP + MariaDB. Su `CLAUDE.md` tiene las
+- **Carpeta:** `./backend` (dentro de esta app, **ignorada por su git**; **no se le hace `git init`**: su historia es `backend/docs/REGISTRO.md`). PHP + MariaDB. Su `CLAUDE.md` tiene las
   reglas; su bitácora es `backend/docs/REGISTRO.md` (qué entregas hay, su estado y qué debe hacer Flutter).
 - **Contrato (única fuente de verdad):** `backend/docs/API.md`. `ApiEndpoints` refleja sus filas; comprobar con
   `python3 -I ~/.claude/flutter-base/tools/api_sync_check.py backend/docs/API.md lib/core/network/api_endpoints.dart backend`.
