@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "sistema_cuentas",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [
+        "--dart-define-from-file=.env.json",
+        "--web-hostname=localhost",
+        "--web-port=8765"
+      ]
+    },
+    {
+      "name": "sistema_cuentas (profile)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "program": "lib/main.dart",
+      "args": [
+        "--dart-define-from-file=.env.json",
+        "--web-hostname=localhost",
+        "--web-port=8765"
+      ]
+    }
+  ]
+}

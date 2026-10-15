@@ -46,3 +46,9 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+.env.json
+
+# Backend (PHP + SQL): vive aquí por comodidad pero no se sube al git de la app.
+# Su historia es backend/docs/REGISTRO.md
+/backend/
